@@ -2,7 +2,7 @@ package com.qa.feedbackformscohorts.persistence.domain;
 
 public class SentCohort {
 
-	private Long cohortId;
+	private Long cohortID;
 	private String cohortName;
 	private String trainerName;
 	private int week;
@@ -13,7 +13,7 @@ public class SentCohort {
 	}
 
 	public SentCohort(Cohort cohort) {
-		this.cohortId = cohort.getCohortId();
+		this.cohortID = cohort.getCohortId();
 		this.cohortName = cohort.getCohortName();
 		this.trainerName = cohort.getCohortName();
 		this.week = cohort.getWeek();
@@ -21,11 +21,11 @@ public class SentCohort {
 	}
 
 	public Long getCohortId() {
-		return cohortId;
+		return cohortID;
 	}
 
 	public void setCohortId(Long cohortId) {
-		this.cohortId = cohortId;
+		this.cohortID = cohortId;
 	}
 
 	public String getCohortName() {
