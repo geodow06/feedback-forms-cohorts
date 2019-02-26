@@ -13,19 +13,19 @@ public class SentCohort {
 	}
 
 	public SentCohort(Cohort cohort) {
-		this.cohortID = cohort.getCohortId();
+		this.cohortID = cohort.getCohortID();
 		this.cohortName = cohort.getCohortName();
 		this.trainerName = cohort.getCohortName();
 		this.week = cohort.getWeek();
 		this.cohortDescription = cohort.getCohortDescription();
 	}
 
-	public Long getCohortId() {
+	public Long getCohortID() {
 		return cohortID;
 	}
 
-	public void setCohortId(Long cohortId) {
-		this.cohortID = cohortId;
+	public void setCohortID(Long cohortID) {
+		this.cohortID = cohortID;
 	}
 
 	public String getCohortName() {

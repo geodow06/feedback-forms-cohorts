@@ -26,11 +26,11 @@ public class Cohort {
 		this.cohortDescription = cohortDescription;
 	}
 
-	public Long getCohortId() {
+	public Long getCohortID() {
 		return cohortID;
 	}
 
-	public void setCohortId(Long cohortId) {
+	public void setCohortID(Long cohortId) {
 		this.cohortID = cohortId;
 	}
 
