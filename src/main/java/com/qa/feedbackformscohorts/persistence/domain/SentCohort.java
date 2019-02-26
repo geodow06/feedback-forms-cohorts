@@ -15,7 +15,7 @@ public class SentCohort {
 	public SentCohort(Cohort cohort) {
 		this.cohortID = cohort.getCohortID();
 		this.cohortName = cohort.getCohortName();
-		this.trainerName = cohort.getCohortName();
+		this.trainerName = cohort.getTrainerName();
 		this.week = cohort.getWeek();
 		this.cohortDescription = cohort.getCohortDescription();
 	}
